@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class OscarRNG:
-    seed = int(datetime.now().strftime("%S%f")[0:4])
+    seed = int(datetime.now().strftime("%S%f")[0:8])
 
     def next(self,min_num,max_num):
         self.seed = self.seed*self.seed
