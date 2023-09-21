@@ -15,4 +15,9 @@ def main():
     greet_user(name,age,device,study)
     
 if __name__ == "__main__":
-    main()
+    while True:
+        try:
+            main()
+        except Exception as e:
+            print(str(e))
+    
