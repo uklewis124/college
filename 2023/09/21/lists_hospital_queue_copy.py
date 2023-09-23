@@ -82,8 +82,6 @@ def main():
         else:
             print("Invalid option")
 
-        
-
 
 # End of program:
 if __name__ == "__main__":
