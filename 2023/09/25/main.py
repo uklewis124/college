@@ -1,10 +1,4 @@
-#Calulate speed for program to run
-import time
-timenow = time.time()
+import pandas as pd
 
-for i in range(0,9999999):
-    print(i)
-    
-timethen = time.time()
-timetaken = timethen - timenow
-print(timetaken)
+df = pd.read_csv('movie_budgets', index_col='id')
+print(df.head())
