@@ -42,7 +42,10 @@ def main():
     aircraft_percentages = aircraft_series / aircraft_series.sum() * 100
     print(aircraft_percentages.head())
     
-    total_b737 = 
+    total_b737 = 11112
+    #Works out percentage of existing b737 that crashed
+    b737_percentage = aircraft_series["Boeing B 737"] / total_b737 * 100
+    print(b737_percentage,"% of all B737s have crashed")
     
 
 # Run Main Function
