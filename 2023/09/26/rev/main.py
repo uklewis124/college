@@ -47,6 +47,11 @@ def main():
     b737_percentage = aircraft_series["Boeing B 737"] / total_b737 * 100
     print(b737_percentage,"% of all B737s have crashed")
     
+    #Works out percentage of existing b737 that crashed from 2007 and onwards
+    b737_percentage_2007 = df.loc[df["Year"] >= 2007, "Aircraft"].value_counts()["Boeing B 737"] / total_b737 * 100
+    print(b737_percentage_2007,"% of all B737s have crashed from 2007 onwards")
+    
+    
 
 # Run Main Function
 if __name__ == "__main__":
