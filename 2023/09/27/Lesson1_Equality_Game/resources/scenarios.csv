@@ -1,0 +1,14 @@
+prosecuting_party,accused_party,scenario,breaksAct/exempt,direct/indirect_discrimination or explanation of exemption,area_of_application
+Employment Agency, Employer, An employment agency refuses to refer a job candidate who is over 50 years old for an open position, breaksAct, direct_discrimination, employment
+Landlord, Tenant, A landlord refuses to rent an apartment to a family with young children, breaksAct, indirect_discrimination, housing
+School, Teacher, A school denies admission to a student because they have a learning disability, breaksAct, direct_discrimination, education
+Sports Club, Coach, A sports club refuses to allow a transgender athlete to participate on a team that aligns with their gender identity, breaksAct, direct_discrimination, sports
+Online Retailer, Customer, An online retailer refuses to ship a product to a customer who uses a wheelchair because they assume the customer cannot climb stairs to receive the package, breaksAct, indirect_discrimination, services
+Hospital, Patient, A hospital denies medical treatment to a patient because they have a mental health condition, breaksAct, direct_discrimination, healthcare
+Bank, Customer, A bank refuses to issue a credit card to a customer because they are from a certain racial or ethnic group, breaksAct, direct_discrimination, financial services
+Transportation Company, Passenger, A transportation company refuses to transport a passenger with a service animal, exempt, explanation of exemption: the company does not allow animals on board for safety reasons, transportation
+Private Club, Membership Committee, A private club only accepts members who are of a certain religion, exempt, explanation of exemption: the club is a religious organization and membership is limited to those who share its religious beliefs, recreation
+Religious Organization, Hiring Committee, A religious organization hires only individuals who share the same faith, exempt, explanation of exemption: the organization is a religious institution and is exempt from certain anti-discrimination laws under the Equality Act, employment
+Political Party, Candidate, A political party chooses a candidate who shares the same political beliefs as the party, exempt, explanation of exemption: the party is exempt from anti-discrimination laws under the Equality Act in relation to political beliefs, politics
+Social Club, Event Organizer, A social club hosts an event only for members of a certain age group, exempt, explanation of exemption: the club is a social organization and is exempt from certain anti-discrimination laws under the Equality Act, recreation
+Charity, Volunteer, A charity only accepts volunteers who are over 18 years old, exempt, explanation of exemption: the charity has determined that certain activities are not suitable for minors and is exempt from anti-discrimination laws under the Equality Act in relation to age, services
