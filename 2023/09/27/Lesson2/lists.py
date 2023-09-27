@@ -12,3 +12,5 @@ numbers.sort(reverse=True) # sort the list in reverse order
 2 not in numbers # check if 2 not in the list
 len(numbers) # return the length of the list
 
+## USING POP REMOVES THE SPECIFIED VALUE (BY INDEX)
+## USING REMOVE REMOVES THE SPECIFIED VALUE (BY NAME)
