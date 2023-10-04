@@ -9,4 +9,16 @@ else:
         score = mark * 5
     elif paper.upper() == "B":
         score = mark * 3
-    print("thier score is: ", score)
+    late = input("Was it handed in late? ")
+    if late.lower() == "yes":
+        score -= 10
+    
+    #Score is now calculated
+    if score < 50:
+        print("Fail")
+    elif 70 > score >= 50:
+        print("Grade C")
+    elif 90 > score >= 70:
+        print("Grade B")
+    elif score >= 90:
+        print("Grade A")
