@@ -1,6 +1,7 @@
 '''summary goes here'''
 import pandas as pd
 import numpy as np
+import os
 
 
 PATH = "2023/10/05/cars.csv"
@@ -8,6 +9,7 @@ RESOURCES = {
     "https://sparkbyexamples.com/pandas/pandas-get-column-names/#:~:text=You%20can%20get%20the%20column,it%20using%20print()%20statement."
 }
 df = pd.read_csv(PATH, sep=';')
+os.system('cls')
 
 def get_names(dataframe):
     column_headers = dataframe.columns.values.tolist()
