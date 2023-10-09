@@ -1,6 +1,7 @@
 '''Learning Matplotlib'''
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 
 
 # Preparing data
@@ -34,23 +35,27 @@ study_hours = dataframe["17"].astype(int)
 # 1:None 2:<5hrs 3:6-10hrs 4:11-20hrs 5:>20hrs
 reading_freqency = dataframe["18"].astype(int)  # 1:None 2:Sometimes 3:Often
 
+
 # Plotting
 x = sex
+y = age
 
-male = 0
+# Preparing data
+age_1 = 0
+age_2 = 0
+age_3 = 0
 for i in x:
     if i == 1:
-        male += 1
-print(male)
-female = 0
-for i in x:
-    if i == 2:
-        female += 1
-print(female)
-
-y = age
+        age_1 += 1
+    elif i == 2:
+        age_2 += 1
+    elif i == 3:
+        age_3 += 1
+print(age_1, age_2, age_3)
+y = np.array(age_1, age_2, age_3)
+print(y)
 plt.bar(x, y)
-plt.figure(figsize=(len(x), len(y)))
+
 # Labeling
 plt.title("Cyprus Education")
 plt.xlabel("Sex")
