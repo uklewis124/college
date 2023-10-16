@@ -52,7 +52,7 @@ for i in x:
     elif i == 3:
         age_3 += 1
 print(age_1, age_2, age_3)
-y = np.array(age_1, age_2, age_3)
+y = [age_1, age_2, age_3]
 print(y)
 plt.bar(x, y)
 
