@@ -50,7 +50,8 @@ def corr_check(df, compare_1, compare_2):
 
 
 pd.set_option('display.max_rows', None) # Displays all rows
-csv_parent = '2023/10/12/res' # The directory where the csvs are stored
+parent_folder = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__))))  # The directory where the csvs are stored
+csv_parent = parent_folder + '/res' # The directory where the csvs are stored
 csvs = os.listdir(csv_parent) # Lists all the csvs in the directory
 csvs_directory = [] # Creates an empty list
 for csv in csvs: # For every csv in the csvs list
