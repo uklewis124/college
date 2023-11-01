@@ -1,0 +1,4 @@
+each letter given value (a = 1, z = 26)
+two letters produce third letter by adding values
+deduct 26 if greater than 26
+finding the letter which equals the result
