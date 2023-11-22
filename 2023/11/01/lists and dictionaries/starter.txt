@@ -1,0 +1,6 @@
+similarities - both have positions within a list and both are lists
+
+what is a dictionary? a list which each value can be found via a string match
+how do you define/write  a dictionary - using {}
+advantages/disadvantages: cannot be gathered using indexes, you can search a comprihensive list of names instantly verses an array which requires an algorithm.
+
