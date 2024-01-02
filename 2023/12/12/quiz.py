@@ -71,8 +71,27 @@ def setup():
 
 
 def run_quiz():
-    pass
+    global stats
+    global data
 
+    # Get User Names
+    stats["user1"]["name"] = input("What is your name? ")
+    stats["user2"]["name"] = input("What is your name? ")
+
+    # First Person
+    print(f"Welcome {stats['user1']['name']}!")
+    print(f"{stats['user1']['name']}, you will be answering first.")
+    print(f"{stats['user2']['name']}, please look away from the screen.")
+
+    for question in enumerate(data):
+        print(NotImplemented)
+
+    # Second Person
+    print(f"Welcome {stats['user2']['name']}!")
+    print(f"{stats['user2']['name']}, you will be answering next.")
+    print(f"{stats['user1']['name']}, please look away from the screen.")
+    
+    pass
 
 # Main
 def main():
