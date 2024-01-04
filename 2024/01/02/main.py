@@ -27,10 +27,11 @@ while True:
                 print("Please enter a valid number.")
             if section3:
                 if operator == "+":
-                    bx.add(first_val, second_val)
+                    output = bx.add(first_val, second_val)
                 elif operator == "-":
-                    bx.subtract(first_val, second_val)
+                    output = bx.subtract(first_val, second_val)
                 elif operator == "*":
-                    bx.multiply(first_val, second_val)
-                elif operator == "/":
-                    bx.divide(first_val, second_val)
+                    output = bx.multiply(first_val, second_val)
+                else:
+                    output = bx.divide(first_val, second_val)
+                print(f"Output: {output}")
