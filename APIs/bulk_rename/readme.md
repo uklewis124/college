@@ -2,6 +2,9 @@
 
 This documentation states how this API can be used. Things not mentioned within this document should only be used by developers.
 
+## Installing BRN (Bulk Rename)
+
+
 ## Renaming Folders
 
 To rename a folder, follow the below code
